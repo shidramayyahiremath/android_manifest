@@ -77,7 +77,7 @@ $ make -jN otapackage
 
 **NOTE:**
 - We have seen errors when performing build using python 3.6 and higher version, so for smooth build use python 2.7.
-- If you are getting this error /home/expleo/aosp9/common/scripts/gcc-version.sh: line 26: aarch64-linux-gnu-gcc: command not found, Make sure you have the necessary cross-compilation tools installed on your system, Common environment variables that may need to be configured include PATH and CROSS_COMPILE.
+- If you are getting this error /home/user/aosp9/common/scripts/gcc-version.sh: line 26: aarch64-linux-gnu-gcc: command not found, Make sure you have the necessary cross-compilation tools installed on your system, Common environment variables that may need to be configured include PATH and CROSS_COMPILE.
 
 PATH: This variable should include the path to the cross-compilation tools. Run the following command to append the necessary path to the PATH variable:
 
